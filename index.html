@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+<article class="profile-card" data-testid="test-profile-card">
+    <header>
+      <h2 data-testid="test-user-name">Daniel Alaba</h2>
+    </header>
+
+    <figure>
+      <img
+        src="alabalitty.jpg"
+        alt="Profile photo of Daniel Alaba"
+        data-testid="test-user-avatar"
+      />
+    </figure>
+
+    <p data-testid="test-user-bio">
+      I’m a passionate frontend developer who loves crafting clean and responsive user interfaces. 
+      I enjoy turning ideas into interactive digital experiences.
+    </p>
+
+    <p>
+      <strong>Current Time (ms):</strong>
+      <span id="userTime" data-testid="test-user-time"></span>
+    </p>
+
+    <nav>
+      <ul>
+        <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h3>Hobbies</h3>
+      <ul data-testid="test-user-hobbies">
+        <li>Coding</li>
+        <li>Reading tech blogs</li>
+        <li>Playing football</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Dislikes</h3>
+      <ul data-testid="test-user-dislikes">
+        <li>Procrastination</li>
+        <li>Messy code</li>
+        <li>Cold coffee</li>
+      </ul>
+    </section>
+  </article>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
